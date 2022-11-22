@@ -1,0 +1,107 @@
+body {
+    width: 1440px;
+    margin: 0 auto;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* absolute를 주게되면 영역이 띄워져서 width값을 부여해야함. */
+header {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 1440px;
+    padding: 30px 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+.logo img {
+    margin-left: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    padding-right: 30px;
+}
+
+nav a {
+    margin-right: 190px;
+    padding: 8px 20px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+.visual {
+    background-image: url("/images/First\ Fold.png");
+    background-repeat: no-repeat;
+    padding: 130px 0;
+}
+
+.contents {
+    display: flex;
+    flex-direction: row;
+}
+
+.inner-item1 {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+.inner-item1 img {
+    width: 105%;
+    margin-left: 170px;
+}
+
+.text-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-item h2 {
+    width: 60%;
+    font-size: 45px;
+    padding-top: 100px;
+    padding-left: 230px;
+}
+
+.text-item p {
+    width: 60%;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 230px;
+}
+
+.inner-item2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-item {
+    font-size: 20px;
+    padding-top: 33px;
+    padding-left: 230px;
+}
+
+.link-item a {
+    margin-right: 3px;
+    padding: 15px 30px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.link-item a:nth-child(1) {
+    background-color: #F5167E;
+    border-style: none;
+}
