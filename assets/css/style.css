@@ -42,7 +42,7 @@ nav a {
 }
 
 .visual {
-    background-image: url("../../images/First\ Fold.png");
+    background-image: url("./../../images/First\ Fold.png");
     background-repeat: no-repeat;
     padding: 130px 0;
 }
