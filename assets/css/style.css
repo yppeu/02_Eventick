@@ -160,3 +160,67 @@ nav a {
     flex-direction: column;
     margin-right: 100px;
 }
+
+.inner-item3 {
+    width: 1086px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.inner-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-title h3 {
+    font-size: 30px;
+    color: #1D275F;
+}
+
+.box-title select {
+    width: 140px;
+    font-size: 11px;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    background-color: #F2F4FF;
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: 10px;
+    color: #1D275F;
+}
+
+.card-item {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-item .items {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-item p {
+    width: 300px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-text div:nth-child(1) {
+    width: 60px;
+    margin: 10px auto;
+}
+
+.card-text div>p:nth-child(1) {
+    color: #3D37F1;
+}
