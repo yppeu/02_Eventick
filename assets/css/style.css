@@ -202,25 +202,51 @@ nav a {
     flex-wrap: wrap;
 }
 
-.card-item .items {
+.items {
     display: flex;
     flex-direction: column;
+    margin: 0 18px 20px 0;
 }
 
 .card-item p {
-    width: 300px;
+    width: 250px;
 }
 
 .card-text {
     display: flex;
     flex-direction: row;
+    margin: -115px 0 23px 25px;
 }
 
 .card-text div:nth-child(1) {
-    width: 60px;
-    margin: 10px auto;
+    width: 40px;
 }
 
-.card-text div>p:nth-child(1) {
+.card-text div:nth-child(1)> :first-child {
     color: #3D37F1;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.card-text div:nth-child(1)> :last-child {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000
+}
+
+.card-text div:nth-child(2) {
+    font-size: 12px;
+}
+
+.card-text div:nth-child(2)> :first-child {
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.card-text div:nth-child(2)> :last-child {
+    color: lightgrey;
+    font-size: 12px;
+    margin-bottom: 15px;
 }
