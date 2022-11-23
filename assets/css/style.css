@@ -250,3 +250,33 @@ nav a {
     font-size: 12px;
     margin-bottom: 15px;
 }
+
+.event-more {
+    margin: auto;
+    color: #3D37F1;
+    border: 1px solid #3D37F1;
+    padding: 15px 35px;
+    border-radius: 23px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.inner-item4 {
+    width: 1440px;
+    height: 303px;
+    margin: 50px 0 100px 0;
+    background: #EEE1FF;
+}
+
+.inner-item4:nth-child(1) {
+    width: 1440px;
+    height: 50px;
+    background: #fff;
+    border: 1px solid #EEE1FF;
+}
+
+.inner-event {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
