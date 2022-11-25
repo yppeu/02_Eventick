@@ -432,6 +432,7 @@ nav a {
 }
 
 footer {
+    width: 1440px;
     color: #fff;
     background: #0A075F;
     padding: 70px 100px;
